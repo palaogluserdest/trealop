@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300;400&family=Lora&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300;400&family=Lora:ital,wght@0,400;1,700&family=Open+Sans:wght@300&display=swap');
  {
     font-family: 'Koh Santepheap', cursive;
 }
@@ -37,7 +37,6 @@
 
 #banner{
     height: 500px;
-    margin-bottom: 100px;
 }
 
 .banner-text{
@@ -73,4 +72,68 @@
 .btnBG:hover{
     background-color: #53D3DEFF ;
     border: 1px solid #fff;
+}
+
+#price{
+    height: 690px;
+    margin-bottom: 100px;
+    background-color: #f4f4f4;
+}
+
+.price-text{
+    padding: 75px 0 45px 0;
+}
+
+.price-text h4{
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+.price-text p{
+    font-size: 18px;
+    line-height: 10px;
+}
+
+.card img{
+    width: 100px;
+    margin: 30px auto 0 auto;
+
+}
+
+.card-body h5{
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+}
+
+
+
+.currency {
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+    font-size: 20px;
+    font-weight: 400;
+}
+.duration {
+    font-size: 20px;
+}
+.value {
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Lora', serif;
+    color: #53D3DEFF;
+}
+
+.priceBtn{
+    border-radius: 0;
+    background-color: #53D3DEFF;
+    border: 1px solid #53D3DEFF;
+    position: relative;
+    top: 40px;
+}
+
+.priceBtn:hover{
+    border-radius: 0;
+    background-color: #76d9e5;
+    border: 1px solid #76d9e5;
 }
