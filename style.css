@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300;400&family=Lora&family=Open+Sans:wght@300&display=swap');
+ {
+    font-family: 'Koh Santepheap', cursive;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0;
+}
+
+.col-9{
+    padding: 0 0;
+}
+#nav-logo{
+    color:white;
+}
+.navbar{
+    padding: 0 1rem;
+}
+
+.navbar a{
+    border-bottom: 1px solid rgba(250,250,250,0.05);
+}
+
+.navbar a:hover{
+    background-color: rgba(0,0,0,0.25);
+    border-bottom: 1px solid #fff;
+}
+
+
+#headerBg {
+    background-color: #53D3DEFF;
+}
+
+#banner{
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.banner-text{
+    padding-top: 175px;
+    color: white;
+}
+
+.banner-text h1{
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 45px;
+}
+.banner-text h2{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.banner-text p{
+    color: white;
+    line-height: 27px;
+    font-size: 15px;
+}
+
+.btnBG{
+    margin-top: 20px;
+    margin-right: 25px;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+
+.btnBG:hover{
+    background-color: #53D3DEFF ;
+    border: 1px solid #fff;
+}
