@@ -175,7 +175,6 @@
 #card-2{
     height: 600px;
     background-color: #fff;
-    margin-bottom: 100px;
 }
 
 .cardBtn{
@@ -198,5 +197,13 @@
 .card-bg:hover{
     background-color: #f4f4f4;
     border: 1px solid #53D3DEFF;
+}
 
+#card-picture{
+    margin-bottom: 100px;
+}
+
+#card-picture h4{
+    font-size: 19px;
+    font-weight: bold;
 }
