@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300;400&family=Lora:ital,wght@0,400;1,700&family=Open+Sans:wght@300&display=swap');
- {
+{
     font-family: 'Koh Santepheap', cursive;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: white;
+    color: #fff;
+    height: 80px;
     text-transform: uppercase;
-    padding-top: 15px;
+    padding-top: 26px;
     padding-bottom: 15px;
     margin-top: 0;
 }
@@ -15,23 +16,31 @@
     padding: 0 0;
 }
 #nav-logo{
+    font-family: 'Lora', serif;
+    padding-top: 15px;
     color:white;
 }
 .navbar{
     padding: 0 1rem;
 }
 
+.left-arrow{
+    vertical-align: top;
+    padding-top: 3px;
+}
+
 .navbar a{
-    border-bottom: 1px solid rgba(250,250,250,0.05);
+    border-bottom: 2px solid rgba(250,250,250,0.05);
 }
 
 .navbar a:hover{
     background-color: rgba(0,0,0,0.25);
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff;
 }
 
 
 #headerBg {
+    height: 80px;
     background-color: #53D3DEFF;
 }
 
@@ -101,7 +110,6 @@
 
 .card-body h5{
     font-family: 'Lora', serif;
-    text-transform: uppercase;
 }
 
 
@@ -140,10 +148,9 @@
 #ads{
     height: 150px;
     background-color: #1D8B94;
-    margin-bottom: 120px;
 }
 
-#adstext{
+#adsText{
     padding-top: 63px;
 }
 
@@ -163,4 +170,33 @@
     border-radius: 0;
     background-color: #76d9e5;
     border: 1px solid #76d9e5;
+}
+
+#card-2{
+    height: 600px;
+    background-color: #fff;
+    margin-bottom: 100px;
+}
+
+.cardBtn{
+    margin: 15px 0;
+    border-radius: 0;
+    background-color: #53D3DEFF;
+    border: 1px solid #53D3DEFF;
+}
+
+.cardBtn:hover{
+    border-radius: 0;
+    background-color: #76d9e5;
+    border: 1px solid #76d9e5;
+}
+
+.card-bg{
+    border-radius: 0;
+}
+
+.card-bg:hover{
+    background-color: #f4f4f4;
+    border: 1px solid #53D3DEFF;
+
 }
