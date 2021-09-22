@@ -76,7 +76,6 @@
 
 #price{
     height: 690px;
-    margin-bottom: 100px;
     background-color: #f4f4f4;
 }
 
@@ -133,6 +132,34 @@
 }
 
 .priceBtn:hover{
+    border-radius: 0;
+    background-color: #76d9e5;
+    border: 1px solid #76d9e5;
+}
+
+#ads{
+    height: 150px;
+    background-color: #1D8B94;
+    margin-bottom: 120px;
+}
+
+#adstext{
+    padding-top: 63px;
+}
+
+#ads h4{
+    font-family: 'Lora', serif;
+    color: #fff;
+    font-size: 21.5px;
+}
+
+.adsBtn{
+    border-radius: 0;
+    background-color: #53D3DEFF;
+    border: 1px solid #53D3DEFF;
+}
+
+.adsBtn:hover{
     border-radius: 0;
     background-color: #76d9e5;
     border: 1px solid #76d9e5;
