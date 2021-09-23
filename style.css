@@ -38,6 +38,16 @@
     border-bottom: 2px solid #fff;
 }
 
+.nav-icons{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-icons:hover{
+    text-decoration: none;
+    color: #393939;
+}
+
 
 #headerBg {
     height: 80px;
